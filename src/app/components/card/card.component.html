@@ -1,0 +1,25 @@
+<div class="card-header">
+  <h2>{{ data.data.name }}</h2>
+</div>
+<div class="card-error" *ngIf="typeError">
+    <h2>Algo deu errado</h2>
+    <button (click)="refresh()">RECARREGAR</button>
+</div>
+<div class="card-ok" *ngIf="!typeError && !loading">
+  <div class="card-price">
+    <span [ngClass]="colorFont">{{ data.data.high | currency : "BRL" }}</span>
+  </div>
+  <div class="card-footer">
+    <div>
+      <span>Variação (%)</span>
+      {{ data.data.pctChange }}
+    </div>
+    <div>
+      <span>Atualizado</span>
+      {{ data.data.create_date }}
+    </div>
+  </div>
+</div>
+<div class="card-loading" *ngIf="loading && !typeError">
+  <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHdpZHRoPSc1MHB4JyBoZWlnaHQ9JzUwcHgnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBjbGFzcz0idWlsLXJpbmctYWx0Ij48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgY2xhc3M9ImJrIj48L3JlY3Q+PGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iNDAiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwKSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48L2NpcmNsZT48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgc3Ryb2tlPSIjNzM3Yzg0IiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ic3Ryb2tlLWRhc2hvZmZzZXQiIGR1cj0iMS41cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGZyb209IjAiIHRvPSI1MDIiPjwvYW5pbWF0ZT48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaGFycmF5IiBkdXI9IjEuNXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiB2YWx1ZXM9IjE4OC4yNSA2Mi43NTsxIDI1MDsxODguMjUgNjIuNzUiPjwvYW5pbWF0ZT48L2NpcmNsZT48L3N2Zz4="  alt="" srcset="" />
+</div>

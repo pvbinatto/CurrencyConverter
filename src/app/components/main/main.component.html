@@ -1,0 +1,7 @@
+<app-card
+  *ngFor="let currency of currencyCost"
+  [data]="currency"
+  [loading]="isLoading"
+  [typeError]="isError"
+  (isRefresh)="refresh()"
+></app-card>

@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+//Import google web fonts (Poppins)
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import "assets/styles/variables.scss";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+}
+
+body {
+    background-color: $app-background;
+    padding-top: 88px;
+    font-family: $font-family;
+}
+
+.text-basic {
+    color: $text-basic;
+}
+
+.text-secondary {
+    color: $text-secondary;
+}
+
+.text-green {
+    color: $text-green;
+}
+
+.text-blue {
+    color: $text-blue;
+}
+
+.text-red {
+    color: $text-red;
+}
+

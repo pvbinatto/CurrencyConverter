@@ -1,0 +1,123 @@
+@import "../../../assets/styles/variables.scss";
+
+:host {
+  width: 28%;
+  margin: 20px;
+  padding: 0px;
+  border-radius: 10px;
+
+  // -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.233);
+  //     -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.233);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.233);
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    background-color: $card-header-background;
+    height: 119px;
+    border-radius: 10px 10px 0 0;
+    //box-shadow
+
+    h2 {
+      color: $text-basic;
+      font-size: 30px;
+      line-height: 45px;
+      font-weight: 700;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .card-ok {
+    .card-price {
+      padding: 35px;
+      font-size: 64px;
+      line-height: 96px;
+      font-weight: 500;
+      height: 210px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $card-background;
+    }
+
+    .card-footer {
+      background-color: $card-background;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 111px;
+      border-radius: 0 0 10px 10px;
+
+      div {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-top: 1px solid $border-separator;
+
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+
+        span {
+          font-size: 18px;
+          color: $text-secondary;
+          font-weight: 600;
+          line-height: 27px;
+        }
+      }
+
+      div:first-of-type {
+        border-right: 1px solid $border-separator;
+      }
+    }
+  }
+
+  .card-loading {
+    background-color: $card-background;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .card-error {
+    background-color: $card-background;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+
+    h2 {
+        font-size: 26px;
+        line-height: 39px;
+        font-weight: 400;
+    }
+
+    button {
+        width: 173px;
+        height: 58px;
+        color: $text-basic;
+        background-color: $button-background;
+        border-radius: 10px;
+        border: none;
+        font-size: 18px;
+        margin-top: 10px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+  }
+}

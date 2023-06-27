@@ -1,0 +1,10 @@
+{
+    "/api": {
+      "target": "https://economia.awesomeapi.com.br/json/",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
