@@ -20,10 +20,11 @@ Certifique-se de ter o Git instalado no seu sistema. Você pode verificar digita
 
  - Crie uma pasta no seu computador e acesse utilizando o terminal do seu sistema operacional.
  - Navegue até o diretório onde deseja clonar o repositório. Use o comando cd para mudar de diretório. Por exemplo, se você quiser clonar o repositório no diretório "Documentos", você pode digitar cd Documentos no terminal.
- - Agora, você precisa clonar o repositório usando o comando git clone. Neste caso, utilize "https://github.com/pvbinatto/CurrencyConverter.git", você pode digitar o seguinte comando no terminal: git clone https://github.com/pvbinatto/CurrencyConverter.git. Isso criará uma cópia local do repositório no diretório atual.
+ - Agora, você precisa clonar o repositório usando o comando git clone. Você pode digitar o seguinte comando no terminal: git clone https://github.com/pvbinatto/CurrencyConverter.git. Isso criará uma cópia local do repositório no diretório atual.
  - Após clonar o repositório, navegue para o diretório do projeto usando o comando cd, neste caso utilize cd CurrencyConverter.
  - Agora que você está no diretório do projeto, você precisa instalar as dependências do projeto Angular. Certifique-se de ter o Node.js instalado no seu sistema. Você pode verificar digitando node --version no seu terminal. Se o Node.js não estiver instalado, você pode baixá-lo e instalá-lo a partir do site oficial do [Node.js](https://nodejs.org).
- - Para instalar as dependências, execute o seguinte comando no terminal: npm i
+ - Para instalar as dependências, execute o seguinte comando no terminal: npm i. Isso instalará todas as dependências necessárias listadas no arquivo package.json do projeto.
+ - Após a conclusão da instalação das dependências, você pode iniciar o servidor de desenvolvimento Angular usando o seguinte comando: npm start ou ng serve, Isso iniciará o servidor de desenvolvimento e você poderá acessar seu projeto Angular no navegador usando a URL http://localhost:4200.
 
 ## Laravel Sponsors
 
