@@ -26,37 +26,16 @@ Certifique-se de ter o Git instalado no seu sistema. Você pode verificar digita
  - Para instalar as dependências, execute o seguinte comando no terminal: npm i. Isso instalará todas as dependências necessárias listadas no arquivo package.json do projeto.
  - Após a conclusão da instalação das dependências, você pode iniciar o servidor de desenvolvimento Angular usando o seguinte comando: npm start ou ng serve, Isso iniciará o servidor de desenvolvimento e você poderá acessar seu projeto Angular no navegador usando a URL http://localhost:4200.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Projeto piloto e melhorias
 
-### Premium Partners
+Posteriormente poderemos adicionar funções interessantes no dashboard como:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+ - Informar as moedas que deseja monitorar.
+ - Aumentar a quantidade de moedas no quadro
+ - Emitir notificações no browser caso uma moeda encontre a variação desejada
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+ São idéias que podem ser adicionadas posteriormente no projeto e que podem agregar valor ao produto.
 
 ## License
 
