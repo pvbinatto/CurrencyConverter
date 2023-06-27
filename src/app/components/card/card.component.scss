@@ -59,6 +59,7 @@
         flex-direction: column;
         justify-content: center;
         border-top: 1px solid $border-separator;
+        color: $text-basic;
 
         font-size: 24px;
         font-weight: 600;
@@ -102,22 +103,35 @@
     border-radius: 0 0 10px 10px;
 
     h2 {
-        font-size: 26px;
-        line-height: 39px;
-        font-weight: 400;
+      font-size: 26px;
+      line-height: 39px;
+      font-weight: 400;
     }
 
     button {
-        width: 173px;
-        height: 58px;
-        color: $text-basic;
-        background-color: $button-background;
-        border-radius: 10px;
-        border: none;
-        font-size: 18px;
-        margin-top: 10px;
-        cursor: pointer;
-        font-weight: 600;
+      width: 173px;
+      height: 58px;
+      color: $text-basic;
+      background-color: $button-background;
+      border-radius: 10px;
+      border: none;
+      font-size: 18px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  :host {
+    width: 80%;
+    min-width: 424px;
+    .card-ok {
+      
+      .card-price {
+        padding: 0px;
+      }
     }
   }
 }

@@ -35,3 +35,8 @@ body {
     color: $text-red;
 }
 
+@media (max-width: 768px) {
+    body {
+        padding-top: 100px;
+    }
+}
