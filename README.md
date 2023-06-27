@@ -12,11 +12,14 @@ Currency Converter é uma ferramenta de visualização para cotação de moedas 
 
 Projeto front-end baseado na api de cotação de moedas [Awesome API](https://docs.awesomeapi.com.br/api-de-moedas).
 
-## Learning Laravel
+## Instalação
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Clonar o projeto
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Certifique-se de ter o Git instalado no seu sistema. Você pode verificar digitando git --version no seu terminal. Se o Git não estiver instalado, você pode baixá-lo e instalá-lo a partir do site oficial do [Git](https://git-scm.com).
+
+ - Crie uma pasta no seu computador e acesse utilizando o terminal do seu sistema operacional.
+ - Navegue até o diretório onde deseja clonar o repositório. Use o comando cd para mudar de diretório. Por exemplo, se você quiser clonar o repositório no diretório "Documentos", você pode digitar cd Documentos no terminal.
 
 ## Laravel Sponsors
 
