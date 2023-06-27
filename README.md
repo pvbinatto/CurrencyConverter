@@ -37,6 +37,6 @@ Posteriormente poderemos adicionar funções interessantes no dashboard como:
 
  São idéias que podem ser adicionadas posteriormente no projeto e que podem agregar valor ao produto.
 
-## License
+## Licença
 
 O projeto é open-sourced e licenciado por [MIT license](https://opensource.org/licenses/MIT).
